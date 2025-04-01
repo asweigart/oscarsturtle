@@ -1,0 +1,32 @@
+[project]
+name = "OscarsTurtle"
+version = "0.0.1"
+authors = [
+    {name="Al Sweigart", email="al@inventwithpython.com"},
+]
+description = "Oscar's Turtle is a set of turtle.py programs that draw the impossible shapes of artist Oscar Reutersvärd."
+readme = "README.md"
+requires-python = ">=2.7"
+classifiers = [
+    "Programming Language :: Python :: 2",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/asweigart/oscarsturtle"
+Issues = "https://github.com/asweigart/oscarsturtle/issues"
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[tool.hatch.envs.default]
+dependencies = ['turtlesc']
+
+[tool.hatch.envs.test]
+dependencies = ['pytest', 'coverage']
+

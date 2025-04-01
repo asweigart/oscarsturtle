@@ -1,2 +1,4 @@
 # oscarsturtle
-Turtle.py code that draws the impossible shapes of artist Oscar Reutersvärd.
+
+Oscar's Turtle is a set of turtle.py programs that draw the impossible shapes of artist Oscar Reutersvärd.
+
